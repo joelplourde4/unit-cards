@@ -28,6 +28,7 @@ import { CavalryFlag } from './CavalryFlag';
 import { InfantryFlag } from './InfantryFlag';
 import { FlyingFlag } from './FlyingFlag';
 import { SiegeEngineFlag } from './SiegeEngineFlag';
+import { SpellcasterFlag } from './SpellcasterFlag';
 
 interface Props {
   ancestry: UnitAncestry;
@@ -99,6 +100,8 @@ const TypeFlag = ({
       <CavalryFlag equipment={equipment} />
     ) : type === 'Flying' ? (
       <FlyingFlag equipment={equipment} />
+    ) : type === 'Spellcasters' ? (
+      <SpellcasterFlag equipment={equipment} />
     ) : null}
   </div>
 );

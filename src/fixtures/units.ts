@@ -39,6 +39,7 @@ export const unitTypes: UnitType[] = [
   'Infantry',
   'Siege Engine',
   'Fortification',
+  'Spellcasters',
 ];
 export const unitExperiences: UnitExperience[] = [
   'Green',
@@ -54,7 +55,7 @@ export const unitEquipments: UnitEquipment[] = [
   'Heavy',
   'Super-Heavy',
 ];
-export const unitSizes: UnitSize[] = ['d4', 'd6', 'd8', 'd10', 'd12'];
+export const unitSizes: UnitSize[] = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd24'];
 export const fortLevels: FortLevel[] = ['1st', '2nd', '3rd', '4th', '5th'];
 export const fortTypes: FortType[] = ['None', 'Keep', 'Tower', 'Temple'];
 

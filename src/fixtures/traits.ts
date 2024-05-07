@@ -122,4 +122,9 @@ export const traitData: TraitData[] = [
       'This unit can attack fortifications, dealing 1d6 damage on a hit.',
     cost: 0,
   },
+  {
+    name: 'Frenzied',
+    description: 'When this unit is diminished, it performs 2 attack checks instead of 1.',
+    cost: 100,
+  },
 ];

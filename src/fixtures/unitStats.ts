@@ -325,6 +325,14 @@ export const typeStats: { [k: string]: TypeStatBlock } = {
     morale: 0,
     costMultiplier: 1,
   },
+  Spellcasters: {
+    attack: 1,
+    power: 1,
+    defense: 0,
+    toughness: 0,
+    morale: 1,
+    costMultiplier: 1.75,
+  },
 };
 
 interface SizeStatBlock {
@@ -337,6 +345,7 @@ export const sizeStats: { [k: string]: SizeStatBlock } = {
   d10: { costMultiplier: 1.66 },
   d12: { costMultiplier: 2 },
   d20: { costMultiplier: 2.33 },
+  d24: { costMultiplier: 2.66 },
 };
 
 interface FortNumberBlock {
