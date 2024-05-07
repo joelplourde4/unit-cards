@@ -17,4 +17,5 @@ export type Trait =
   | 'Undead'
   | 'Charge'
   | 'Always Diminished'
-  | 'Siege Engine';
+  | 'Siege Engine'
+  | 'Frenzied';

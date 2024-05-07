@@ -30,7 +30,8 @@ export type UnitType =
   | 'Levies'
   | 'Infantry'
   | 'Siege Engine'
-  | 'Fortification';
+  | 'Fortification'
+  | 'Spellcasters';
 export type UnitExperience =
   | 'Green'
   | 'Regular'
@@ -39,7 +40,7 @@ export type UnitExperience =
   | 'Elite'
   | 'Super-Elite';
 export type UnitEquipment = 'Light' | 'Medium' | 'Heavy' | 'Super-Heavy';
-export type UnitSize = 'd4' | 'd6' | 'd8' | 'd10' | 'd12' | 'd20';
+export type UnitSize = 'd4' | 'd6' | 'd8' | 'd10' | 'd12' | 'd20' | 'd24';
 export type FortLevel = '1st' | '2nd' | '3rd' | '4th' | '5th';
 export type FortType = 'Keep' | 'Tower' | 'Temple' | 'None';
 
